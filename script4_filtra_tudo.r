@@ -5,9 +5,9 @@
 library(data.table)
 library(dplyr)
 
-cnpjs <- read.csv("C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_finais/cnpj_save.csv")  
-output_folder <- "C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_finais"
-caminho_dados <- "C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_processamento"
+cnpjs <- read.csv("RECEITA_COOP_2023/dados_finais/cnpj_save.csv")  
+output_folder <- "RECEITA_COOP_2023/dados_finais"
+caminho_dados <- "RECEITA_COOP_2023//dados_processamento"
 
 
 # filtrar socios -----------------------------------------------------------------------------------------------------

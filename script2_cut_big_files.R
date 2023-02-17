@@ -1,16 +1,18 @@
-#REFAZENDO--------------------------
+library(dplyr)
 library(data.table)
 
 #VOU CORTA OS ARQUIVOS MUITO GRANDES QUE NÃO CONSIGO PROCESSAR DIREITO
 #NO CASO SÃO OS COM TERMINAÇÃO ESTABELE E SIMPLES
 #JUNTO TUDO EM UMA LISTA E MANDO CORTAR TUDO DE UMA VEZ
 
-dados_caminho <- "C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_processamento"
+dados_caminho <- "RECEITA_COOP_2023/dados_processamento"
 
 files_to_filter <-  list.files(dados_caminho, pattern = c(".*\\ESTABELE")) 
 files_to_filter <- c(files_to_filter, list.files(dados_caminho, pattern = c(".*\\SIMPLES.CSV")))
 
-                             
+                    
+
+
 #mecanismo de separação--------------------------------------------------------------------------------------
 
 for(j in 1:length(files_to_filter)){

@@ -3,14 +3,14 @@
 library(data.table)
 
 #Descompactando tudo-----------------------
-endereco_dados_entrada <- "C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_entrada"
+endereco_dados_entrada <- "RECEITA_COOP_2023/dados_entrada"
 lista_arquivos_compactados  <- list.files(endereco_dados_entrada) 
 
 
   for(arquivo in lista_arquivos_compactados ){
     unzip(
           file.path(endereco_dados_entrada, arquivo),
-          exdir = ("C:/Users/jeanalesibr/Desktop/Extract_receita/rf_2023/dados_processamento")
+          exdir = ("RECEITA_COOP_2023/dados_processamento")
           )
   }
 
