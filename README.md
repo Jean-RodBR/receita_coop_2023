@@ -1,10 +1,10 @@
 # 2023_Receita_COOP
 * Fonte: https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-jurdica---cnpj
-
-* Descrição das tabelas e relacionamentos no arquivo nomeado como dicionario.pdf
-
-* 1 - Crie 3 pastas com os seguintes nomes: dados_entrada, dados_processamento, dados_finais
  
+ Primeiro crie duas pastas dentro de receita_coop_2023 com os nomes exatamente como: dados_entrada e dados_processamento
+
+
+*  1 - Descrição das tabelas e relacionamentos no arquivo nomeado como dicionario.pdf
   
 * 2 - Baixe todas os arquivos COMPACTADOS das tabelas presentes no dicionario.pdf, salve os arquivos compactados dentro da pasta: dados_entrada. 
   Baixe da Fonte:  https://dados.gov.br/dados/conjuntos-dados/cadastro-nacional-da-pessoa-jurdica---cnpj
