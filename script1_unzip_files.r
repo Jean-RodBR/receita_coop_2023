@@ -2,8 +2,8 @@
 
 library(data.table)
 
-dir.create("RECEITA_COOP_2023/dados_entrada", showWarnings = FALSE)
-dir.create("RECEITA_COOP_2023/dados_processamento", showWarnings = FALSE)
+##dir.create("RECEITA_COOP_2023/dados_entrada", showWarnings = FALSE)
+#dir.create("RECEITA_COOP_2023/dados_processamento", showWarnings = FALSE)
 
 #Descompactando tudo-----------------------
 endereco_dados_entrada <- "RECEITA_COOP_2023/dados_entrada"
