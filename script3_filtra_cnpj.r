@@ -23,7 +23,8 @@ for(i in 1:length(files_to_filter)){
 
   empresas_filtrado <- do.call("rbind",df_list)
 
-  colnames(empresas_filtrado) <- c("cnpj_basico","NOME","NATUREZA_JURIDICA","QUALIFICACAO_DO_RESPONSAVEL",
+  colnames(empresas_filtrado) <- c("cnpj_basico","NOME","NATUREZA_JURIDICA",
+                                      "QUALIFICACAO_DO_RESPONSAVEL",
                                       "CAPITAL_SOCIAL","PORTE","ENTE_FEDERATIVO_RESPONSAVEL")
   
   write.csv(empresas_filtrado, file=paste0(output_folder,"/","empresas_filtradas",".csv"))
